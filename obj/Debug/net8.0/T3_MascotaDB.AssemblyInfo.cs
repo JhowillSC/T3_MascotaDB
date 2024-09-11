@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("T3_MascotaDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67260c8480e58dbf40e69ceee014397bc2b3e73b")]
 [assembly: System.Reflection.AssemblyProductAttribute("T3_MascotaDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("T3_MascotaDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
