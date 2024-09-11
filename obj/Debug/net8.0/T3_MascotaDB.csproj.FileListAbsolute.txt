@@ -136,3 +136,4 @@ C:\Users\jhowi\Desktop\Tareas_Programacion\T3_MascotaDB\obj\Debug\net8.0\refint\
 C:\Users\jhowi\Desktop\Tareas_Programacion\T3_MascotaDB\obj\Debug\net8.0\T3_MascotaDB.pdb
 C:\Users\jhowi\Desktop\Tareas_Programacion\T3_MascotaDB\obj\Debug\net8.0\T3_MascotaDB.genruntimeconfig.cache
 C:\Users\jhowi\Desktop\Tareas_Programacion\T3_MascotaDB\obj\Debug\net8.0\ref\T3_MascotaDB.dll
+C:\Users\jhowi\Desktop\Tareas_Programacion\T3_MascotaDB\obj\Debug\net8.0\T3_MascotaDB.sourcelink.json
