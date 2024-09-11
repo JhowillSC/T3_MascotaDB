@@ -1,0 +1,53 @@
+@model T3_MascotaDB.ViewModel.MascotaViewModel
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<h1 style="text-align: center;">Formulario de Mascotas</h1>
+<form asp-controller="Mascota" asp-action="Registrar" method="post">
+    <div class="form-group">
+        <label asp-for="FormMascota.Nombre" class="control-label"></label>
+        <input asp-for="FormMascota.Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FormMascota.Raza" class="control-label"></label>
+        <input asp-for="FormMascota.Raza" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FormMascota.Color" class="control-label"></label>
+        <input asp-for="FormMascota.Color" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FormMascota.FechaNacimiento" class="control-label"></label>
+        <input asp-for="FormMascota.FechaNacimiento" class="form-control" type="date" />
+    </div>
+    <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary">Registrar</button>
+    </div>
+</form>
+
+<h1 style="text-align: center;">Lista - Mascotas</h1>
+
+<table class="custom-table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Raza</th>
+            <th>Color</th>
+            <th>Fecha de Nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListMascota)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelMascota => item.Nombre)</td>
+                <td>@Html.DisplayFor(modelMascota => item.Raza)</td>
+                <td>@Html.DisplayFor(modelMascota => item.Color)</td>
+                <td>@item.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3 style="text-align: center;">@ViewData["Message"]</h3>
